@@ -143,12 +143,12 @@ menu_settings() {
 # To register a new module in the menu, append one line here.
 
 MAIN_MENU_ITEMS=(
-    "  Subtitles   ▸ merge, rename, extract|menu_subtitles"
-    "  Strip embedded subtitles|menu_strip"
-    "  Remux / Convert  [placeholder]|menu_remux"
-    "  Edit MKV metadata  [placeholder]|menu_metadata"
-    "⚙  Settings|menu_settings"
-    "✕  Exit|_exit_toolkit"
+    "  Subtitles           ▸ merge, rename, extract|menu_subtitles"
+    "󱩋 Strip embedded subtitles|menu_strip"
+    " Remux / Convert      [placeholder]|menu_remux"
+    " Edit MKV metadata    [placeholder]|menu_metadata"
+    " Settings|menu_settings"
+    " Exit|_exit_toolkit"
 )
 
 _exit_toolkit() {
